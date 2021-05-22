@@ -37,7 +37,6 @@ These are some of the dependencies used in the project:
 - eslint
 - prettier
 - react-dom
-- react-icons
 - react-scripts
 - typescript
 
