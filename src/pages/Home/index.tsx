@@ -1,7 +1,16 @@
 import React from 'react';
 
+import { Container } from './styles';
+
+import logoImg from '../../assets/rick-and-morty-logo.svg';
+
 const Home: React.FC = () => {
-  return <h1>Home</h1>;
+  return (
+    <Container>
+      <img src={logoImg} alt="Rick and Morty"/>
+
+    </Container>
+  );
 };
 
 export default Home;
